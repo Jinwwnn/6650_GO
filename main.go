@@ -34,7 +34,7 @@ func main() {
 	dbDSN := os.Getenv("DB_DSN")
 	if dbDSN == "" {
 		// Default DSN if not set
-		dbDSN = "mydbuser:mydbpass123@tcp(YOUR_RDS_ENDPOINT:3306)/mydemodb"
+		dbDSN = "mydbuser:mydbpass123@tcp(demo-mysql.c7uus8adixh0.us-west-2.rds.amazonaws.com:3306)/mydemodb"
 	}
 
 	// Initialize database connection
