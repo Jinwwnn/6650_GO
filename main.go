@@ -22,7 +22,7 @@ import (
 	//
 	//    sw "github.com/myname/myrepo/go"
 	//
-	sw "albumserver/go"
+	sw "6650_GO/go"
 
 	_ "github.com/go-sql-driver/mysql"
 )
